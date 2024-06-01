@@ -1,4 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadis Arefanjazi's CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-photo {
+            border-radius: 50%;
+            width: 100px; /* Adjusted size */
+            height: 100px; /* Adjusted size */
+            object-fit: cover;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border: 3px solid white; /* Adjusted border size */
+        }
+
+        section {
+            margin: 1em;
+            padding: 1em;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
     <header>
         <img src="Hadis.jpg" alt="Hadis Arefanjazi" class="profile-photo">
         <h1>Hadis Arefanjazi</h1>
