@@ -27,14 +27,9 @@
             height: 100px; /* Adjusted size */
             object-fit: cover;
             position: absolute;
-            top: 50%;
+            top: 10px;
             left: 10px;
-            transform: translateY(-50%); /* Centers the image vertically */
             border: 3px solid white; /* Adjusted border size */
-        }
-
-        header h1, header p {
-            margin: 0;
         }
 
         section {
@@ -51,7 +46,7 @@
 </head>
 <body>
     <header>
-        <img src="Hadis.jpg" alt="Hadis Arefanjazi" class="profile-photo">
+        <img src="images/profile.jpg" alt="Hadis Arefanjazi" class="profile-photo">
         <h1>Hadis Arefanjazi</h1>
         <p>Binghamton University</p>
         <p>Email: harefan1@binghamton.edu</p>
@@ -62,4 +57,9 @@
         <p><strong>2018-2021:</strong> M.S. in Control Engineering, University of Isfahan, Iran</p>
         <p><strong>2014-2018:</strong> B.S. in Electrical Engineering, University of Kashan, Iran</p>
     </section>
-    <sect
+    <section>
+        <h2>Publications</h2>
+        <p><strong>A robust distributed observer design for Lipschitz nonlinear systems with time-varying switching topology</strong>. <a href="https://doi.org/10.1016/j.jfranklin.2023.07.036">https://doi.org/10.1016/j.jfranklin.2023.07.036</a></p>
+    </section>
+</body>
+</html>
