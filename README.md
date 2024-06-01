@@ -46,7 +46,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Hadis Arefanjazi" class="profile-photo">
+        <img src="Hadis.jpg" alt="Hadis Arefanjazi" class="profile-photo">
         <h1>Hadis Arefanjazi</h1>
         <p>Binghamton University</p>
         <p>Email: harefan1@binghamton.edu</p>
