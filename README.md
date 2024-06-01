@@ -51,6 +51,10 @@
         <p>Email: harefan1@binghamton.edu</p>
     </header>
     <section>
+        <h2>Bio</h2>
+        <p>Focused on optimizing attention allocation in Human-Machine Systems and combating misinformation in social networks. My work leverages advanced game-theoretic models and multidisciplinary approaches to improve communication and decision-making in AI applications.</p>
+    </section>
+    <section>
         <h2>Education</h2>
         <p><strong>Spring 2023:</strong> PhD in Electrical Engineering, Binghamton University, USA</p>
         <p><strong>2018-2021:</strong> M.S. in Control Engineering, University of Isfahan, Iran</p>
