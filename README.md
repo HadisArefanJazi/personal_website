@@ -23,12 +23,12 @@
 
         .profile-photo {
             border-radius: 50%;
-            width: 5px; /* Adjusted size */
-            height: 5px; /* Adjusted size */
+            width: 100px; /* Adjusted size */
+            height: 100px; /* Adjusted size */
             object-fit: cover;
             position: absolute;
-            top: 5px;
-            left: 5px;
+            top: 10px; /* Adjusted position */
+            left: 10px; /* Adjusted position */
             border: 3px solid white; /* Adjusted border size */
         }
 
@@ -59,7 +59,7 @@
     </section>
     <section>
         <h2>Publications</h2>
-        <p><strong>A robust distributed observer design for Lipschitz nonlinear systems with time-varying switching topology</strong>. <a href="https://doi.org/5.516/j.jfranklin.2023.07.036">https://doi.org/5.516/j.jfranklin.2023.07.036</a></p>
+        <p><strong>A robust distributed observer design for Lipschitz nonlinear systems with time-varying switching topology</strong>. <a href="https://doi.org/10.1016/j.jfranklin.2023.07.036">https://doi.org/10.1016/j.jfranklin.2023.07.036</a></p>
     </section>
 </body>
 </html>
