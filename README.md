@@ -23,8 +23,8 @@
 
         .profile-photo {
             border-radius: 50%;
-            width: 100px; /* Adjusted size */
-            height: 100px; /* Adjusted size */
+            width: 10px; /* Adjusted size */
+            height: 10px; /* Adjusted size */
             object-fit: cover;
             position: absolute;
             top: 10px;
