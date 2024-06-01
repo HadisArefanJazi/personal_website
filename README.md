@@ -27,9 +27,14 @@
             height: 100px; /* Adjusted size */
             object-fit: cover;
             position: absolute;
-            top: 10px; /* Adjusted position */
-            left: 10px; /* Adjusted position */
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%); /* Centers the image vertically */
             border: 3px solid white; /* Adjusted border size */
+        }
+
+        header h1, header p {
+            margin: 0;
         }
 
         section {
@@ -57,9 +62,4 @@
         <p><strong>2018-2021:</strong> M.S. in Control Engineering, University of Isfahan, Iran</p>
         <p><strong>2014-2018:</strong> B.S. in Electrical Engineering, University of Kashan, Iran</p>
     </section>
-    <section>
-        <h2>Publications</h2>
-        <p><strong>A robust distributed observer design for Lipschitz nonlinear systems with time-varying switching topology</strong>. <a href="https://doi.org/10.1016/j.jfranklin.2023.07.036">https://doi.org/10.1016/j.jfranklin.2023.07.036</a></p>
-    </section>
-</body>
-</html>
+    <sect
