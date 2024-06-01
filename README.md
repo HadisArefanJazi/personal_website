@@ -23,13 +23,13 @@
 
         .profile-photo {
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 100px; /* Adjusted size */
+            height: 100px; /* Adjusted size */
             object-fit: cover;
             position: absolute;
             top: 10px;
             left: 10px;
-            border: 5px solid white;
+            border: 3px solid white; /* Adjusted border size */
         }
 
         section {
