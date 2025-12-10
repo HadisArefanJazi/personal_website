@@ -22,13 +22,13 @@
 
         .profile-photo {
             border-radius: 50%;
-            width: 100px; /* Adjusted size */
-            height: 100px; /* Adjusted size */
+            width: 100px;
+            height: 100px;
             object-fit: cover;
             position: absolute;
             top: 10px;
             left: 10px;
-            border: 3px solid white; /* Adjusted border size */
+            border: 3px solid white;
         }
 
         section {
@@ -63,6 +63,8 @@
     <section>
         <h2>Publications</h2>
         <p><strong>A robust distributed observer design for Lipschitz nonlinear systems with time-varying switching topology</strong>. <a href="https://doi.org/10.1016/j.jfranklin.2023.07.036">https://doi.org/10.1016/j.jfranklin.2023.07.036</a></p>
+        <p>H. Arefanjazi, E. Akyol, “On Myopia in Rationally Inattentive Dynamic Information Acquisition,” in Annual Allerton Conference on Communication, Control, and Computing (Allerton), Monticello, IL, USA, 2025.</p>
+        <p>H. Arefanjazi, E. Akyol, “Dynamic Information Acquisition under Rational Inattention,” arXiv preprint, 2025.</p>
     </section>
 </body>
 </html>
