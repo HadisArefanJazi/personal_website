@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadis Arefanjazi - CV</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+            background: #fff;
+            line-height: 1.45;
+            font-size: 14px;
+        }
+
+        .cv-container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-bottom: 22px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 16px;
+        }
+
+        .profile-photo {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .header-text h1 {
+            margin: 0 0 6px;
+            font-size: 28px;
+            line-height: 1.1;
+        }
+
+        .header-text p {
+            margin: 3px 0;
+        }
+
+        a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 18px;
+            page-break-inside: avoid;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 0 0 8px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 3px;
+        }
+
+        p {
+            margin: 0 0 9px;
+        }
+
+        .publication {
+            margin-bottom: 10px;
+        }
+
+        @media print {
+            @page {
+                size: letter;
+                margin: 0.55in;
+            }
+
+            body {
+                padding: 0;
+                font-size: 12px;
+                line-height: 1.35;
+            }
+
+            .cv-container {
+                max-width: 100%;
+            }
+
+            header {
+                margin-bottom: 14px;
+                padding-bottom: 10px;
+                gap: 18px;
+            }
+
+            .profile-photo {
+                width: 90px;
+                height: 90px;
+            }
+
+            .header-text h1 {
+                font-size: 24px;
+            }
+
+            section {
+                margin-bottom: 12px;
+            }
+
+            h2 {
+                font-size: 15px;
+                margin-bottom: 6px;
+            }
+
+            p {
+                margin-bottom: 6px;
+            }
+
+            a {
+                color: #000;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-container">
+        <header>
+            <img src="pic_Hadis.png" alt="Hadis Arefanjazi" class="profile-photo">
+
+            <div class="header-text">
+                <h1>Hadis Arefanjazi</h1>
+                <p>Binghamton University</p>
+                <p>Email: <a href="mailto:harefan1@binghamton.edu">harefan1@binghamton.edu</a></p>
+                <p>
+                    <a href="https://www.linkedin.com/in/hadis-arefanjazi-583b86214" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </p>
+            </div>
+        </header>
+
+        <section>
+            <h2>Bio</h2>
+            <p>
+                As AI becomes embedded in critical decision workflows, understanding and mitigating the effects of human attention constraints is increasingly important. My work addresses a fundamental and timely challenge in modern AI-enabled systems: how a human decision-maker should optimally allocate limited cognitive attention across multiple, continuously arriving, and noisy information sources, many of which are increasingly generated or mediated by AI systems. These results provide fundamental insights into how bounded rationality and information constraints shape long-horizon decision behavior.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><strong>Spring 2023:</strong> Ph.D. in Electrical Engineering, Binghamton University, USA</p>
+            <p><strong>2018-2021:</strong> M.S. in Control Engineering, University of Isfahan, Iran</p>
+            <p><strong>2014-2018:</strong> B.S. in Electrical Engineering, University of Kashan, Iran</p>
+        </section>
+
+        <section>
+            <h2>Publications</h2>
+
+            <p class="publication">
+                H. Arefanjazi, M. Ataei, M. Ekramian, and A. Montazeri,
+                “A robust distributed observer design for Lipschitz nonlinear systems with time-varying switching topology,”
+                <em>Journal of the Franklin Institute</em>, vol. 360, no. 14, pp. 10728–10744, 2023.
+                <a href="https://doi.org/10.1016/j.jfranklin.2023.07.036" target="_blank" rel="noopener noreferrer">Franklin</a>
+            </p>
+
+            <p class="publication">
+                H. Arefanjazi and E. Akyol,
+                “On Myopia in Rationally Inattentive Dynamic Information Acquisition,”
+                in <em>Annual Allerton Conference on Communication, Control, and Computing</em>, Monticello, IL, USA, 2025.
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QAln9-gAAAAJ&citation_for_view=QAln9-gAAAAJ:9yKSN-GCB0IC" target="_blank" rel="noopener noreferrer">Allerton</a>
+            </p>
+
+            <p class="publication">
+                H. Arefanjazi and E. Akyol,
+                “Dynamic Information Acquisition Under Rational Inattention,”
+                in <em>American Control Conference</em>, 2026.
+            </p>
+
+            <!--
+            <p class="publication">
+                H. Arefanjazi and E. Akyol,
+                “Robust Dynamic Attention Allocation in Human-AI Collaboration under ...”
+            </p>
+            -->
+        </section>
+    </div>
+</body>
+</html>
